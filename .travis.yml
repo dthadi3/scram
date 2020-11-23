@@ -1,5 +1,9 @@
 dist: trusty
 
+arch:
+  - AMD64
+  - ppc64le
+
 language: java
 script: mvn -Psafer -B -e -T 1C verify
 
